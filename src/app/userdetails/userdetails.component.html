@@ -1,0 +1,29 @@
+<h2 style="color: rgb(243, 70, 40);text-align: center;">User List</h2>
+<table class="table table-stripped" style="color: rgb(231, 102, 102);">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>UserName</th>
+      <th>Password</th>
+      <!-- <th>Actions</th> -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let us of users">
+      <td>{{us.id}}</td>
+    <td>{{us.name}}</td>
+    <td>{{us.email}}</td>
+    <td>{{us.user1}}</td>
+    <td>{{us.password}}</td>
+    <td>
+      
+      <!-- <button (click) = "updateEmployee(emp.id)" class="btn btn-info">Update</button> -->
+      <!-- <button (click) = "deleteUser(us.id)" class="btn btn-danger" style="margin-left: 10px">Delete</button> -->
+      <!-- <button (click) = "employeeDetails(us.id)" class="btn btn-warning" style="margin-left: 10px">View</button> -->
+    </td>
+    </tr>
+  </tbody>
+</table>
+

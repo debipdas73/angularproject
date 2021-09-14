@@ -1,0 +1,16 @@
+<h1 appHighlight>Student List</h1>
+<table border="10">
+  <thead>
+    <th>Rollno</th><th>Name</th><th>Course</th><th>City</th><th>Percentage</th><th>Status</th>
+  </thead>  
+  <tr *ngFor="let s of student">
+     
+       <td>{{s.rollno}}</td>
+       <td>{{s.name}}</td>
+      <td>{{s.course}}</td>
+      <td>{{s.city}}</td>
+      <td>{{s.percentage}}</td>
+      <td *ngIf="s.percentage <=50" appHighlight>Faill</td>
+      <td *ngIf="s.percentage >=50" appHighlight>Pass</td>
+    </tr>
+  </table>

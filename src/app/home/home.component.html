@@ -1,0 +1,215 @@
+<!-- style="background-color:rgb(211, 200, 102);">
+    <h1 appHighlight>Home!</h1><h3 style="text-align: left;">{{name}}</h3>
+    <p style="text-align: right;">{{hdate | date:'mediumDate'}}</p>
+    <p style="text-align: right;">{{hdate | date : 'mediumTime'}}</p>
+    
+    Login As : <input [(ngModel)]='searchText' placeholder='Login As'>
+   
+    <div *ngFor=' let c of characters | filter: searchText'>
+    {{ c }}
+    </div>   -->
+     
+
+
+
+
+
+    
+ 
+<!-- Enter the name:<input type="text"[(ngModel)]='name'/> -->
+<!DOCTYPE html>
+<!--Code by Divinector (www.divinectorweb.com)-->
+<html lang="en">
+<head>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse"> </nav>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <title>Responsive Homepage design with Bootstrap and Animate css</title> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="home.component.css">    
+
+</head>
+<body>
+   
+    <!-- <h1 appHighlight>Home!</h1><h3 style="text-align: left;">{{name}}</h3> -->
+    <!-- <p style="text-align: right;">{{hdate | date:'mediumDate'}}</p>
+    <p style="text-align: right;">{{hdate | date : 'mediumTime'}}</p> -->
+
+    <header>
+        <!-- <p appHighlight>Home!</p><p style="text-align: left;">{{name}}</p> -->
+                <!-- <p style="text-align: right;">{{hdate | date:'mediumDate'}}</p>
+                <p style="text-align: right;">{{hdate | date : 'mediumTime'}}</p> -->
+        
+            <div class="container">
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- <li><a href="#">Home</a></li> -->
+                        <!-- <li><a href="#">About</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">contact</a></li> -->
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        <!-- </nav> -->
+
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="banner" style="background-image: url(https://i.postimg.cc/pTGKnyy0/1.jpg);"></div>
+                    <div class="carousel-caption">
+                        <p style="text-align: right;">{{hdate | date:'mediumDate'}}</p>
+                <p style="text-align: right;">{{hdate | date : 'mediumTime'}}</p>
+                        <h2 class="animated bounceInRight" style="animation-delay: 1s">Welcome <span>TO</span></h2>
+                        <h3 class="animated bounceInLeft" style="animation-delay: 2s">Employee Management</h3>
+                       
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(https://i.postimg.cc/k4Bvsxrr/2.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated slideInDown" style="animation-delay: 1s">Welcome <span>To</span></h2>
+                        <h3 class="animated fadeInUp" style="animation-delay: 2s">Employee Management</h3>
+                        
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(https://i.postimg.cc/tgg3Rh41/3.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">Welcome <span>To</span></h2>
+                        <h3 class="animated fadeInLeft" style="animation-delay: 2s">Employee Management</h3>
+                       
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <html style="background-color:rgb(211, 200, 102);"> -->
+ 
+    
+    <!-- Login As : <input [(ngModel)]='searchText' placeholder='Login As'>
+   
+    <div *ngFor=' let c of characters | filter: searchText'>
+    {{ c }}
+    </div>    -->
+
+
+
+
+
+    
+ 
+<!-- Enter the name:<input type="text"[(ngModel)]='name'/>-->
+<!-- </html>  -->
+
+
+
+<!-- <h5>{{name | uppercase}}</h5>
+<h5>{{name | lowercase}}</h5>
+<h5>{{name | titlecase}}</h5>
+<h5>{{name | slice:3}}</h5>
+<h5>{{name | slice:3:5}}</h5>
+<br>
+<h3>{{name | arrangeorder :'Mr' : 'the great'}}</h3>
+<br>
+<h4 style="color: darkolivegreen;">{{characters | sort: 'ascending'}}</h4>
+<h4 style="color: darkolivegreen;">{{characters | sort: 'descending'}}</h4>
+<br>
+
+<h4>{{person | radhe}}</h4> 
+<h4>{{person}}</h4>
+<h4>{{val | number: '1.2-3'}}</h4>
+<h4>{{val | number: '3.4-5'}}</h4>
+<h4>{{val | number: '3.1-2'}}</h4>
+<h4>{{val | percent}}</h4>
+<h4>{{val|currency}}</h4>
+<h4>{{val| currency: 'GRB'}}</h4>
+<h4>{{val|currency:'INR'}}</h4>
+<h3>{{hdate}}</h3>
+<h3>{{hdate | date:'shortDate'}}</h3>
+<h3>{{hdate | date : 'shortTime'}}</h3>
+<h3>{{hdate | date : 'mediumDate'}}</h3>
+<h3>{{hdate | date : 'mediumTime'}}</h3>
+<h3>{{hdate | date : 'longDate'}}</h3> -->
+
+
+
+
+
+ <!-- How you want to login:<input type="text" [(ngModule)]='designations'/>  -->
+<br>  
+<!-- <div class="container">
+    <input [value]="Name" (input)="Name=$event.target.value" />
+     <br/>
+     <h1>hello {{Name}}</h1>
+ </div>  -->
+<!-- <div *ngFor="let designations of designation">
+    <h2 appHighlight> {{designations}}</h2>
+</div>
+
+<div  [ngSwitch]='designation1'>
+ <div *ngSwitchCase="'Admin'" >You login as Admin</div>
+ <div *ngSwitchCase="'User'" >You login as User</div>
+ <div *ngSwitchCase="'Guest'" >You login as Guest</div>
+ <div *ngSwitchDefault>Login Again</div>
+</div> -->
+
+
+<!-- </html> -->

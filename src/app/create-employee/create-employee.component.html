@@ -1,0 +1,106 @@
+<div class="col-md-6 offset-md-4" style="background-color:rgb(13, 20, 12);" >
+  <h3 style="text-align: center;color: rgb(229, 231, 71);" >Create Employee</h3>
+  
+  <form (ngSubmit) = "onSubmit()">
+<!-- <div class="form-group">
+  <label> Id </label>
+  <input  type="text" class="form-control" id="id" [(ngModel)]="employ.id" name="id">
+</div> -->
+<div class="form-group">
+  <label style="color: rgb(233, 184, 77);"> Id </label>
+  <input type="text" class="form-control" id="id" [(ngModel)]="employ.id" name="id">
+</div>
+ <div class="form-group">
+  <label style="color: rgb(233, 184, 77);"> EmailId </label>
+  <input  type="text" class="form-control" id="emailId" [(ngModel)]="employ.emailId" name="emailId">
+</div> 
+
+<div class="form-group">
+  <label style="color: rgb(233, 184, 77);"> First Name </label>
+  <input type="text" class="form-control" id="firstName" [(ngModel)]="employ.firstName" name="firstName">
+</div>
+<div class="form-group">
+  <label style="color: rgb(233, 184, 77);"> Last Name </label>
+  <input type="text" class="form-control" id="lastName" [(ngModel)]="employ.lastName" name="lastName">
+</div>
+<button class="btn btn-success" type="submit">Submit</button>
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div class="container" style="color: darkred;">
+    <br/><br/>
+    <h1 class="text-center bg-success">Registation </h1>
+    <br/><br/>
+    <div class="row bg-success">
+        <div class="col-md-6 col-md-offset-3">
+          <form class="form-horizontal" #signupForm="ngForm" [formGroup]="formGroup" (validSubmit)="onSubmit()">
+      
+          <div class="form-group">
+              <label class="control-label col-sm-3">Id</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" formControlName="Id">
+  
+              </div>
+              <span *ngIf="isValid('Username')">Username cannot be blank</span> 
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2">EmailId</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" formControlName="EmailId">
+  
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2">FirstName</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" formControlName="FirstName">
+  
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2">LastName</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" formControlName="LastName">
+  
+              </div>
+              
+               <span *ngIf="isValid('Password')">Password cannot be blank</span> 
+            </div>
+            <button class="btn btn-default my-5 my-sm-0 mr-sm-2" type="button" (click)="onReset()">Reset</button>
+            <button class="btn btn-primary my-5 my-sm-0 mr-sm-2 " type="submit">Submit</button>
+             <button class="btn btn-info my-5 my-sm-0 mr-sm-2" (click)="moveToRegister()">Register</button>  
+  
+          </form> 
+        </div>
+      </div>
+  </div>
+ -->
